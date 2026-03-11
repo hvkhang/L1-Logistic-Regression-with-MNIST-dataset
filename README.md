@@ -34,3 +34,7 @@ The notebook uses the `mnist_784` dataset from [OpenML](https://www.openml.org/d
 - Labels are transformed to `-1` and `1` to match the L1 logistic regression implementation.
 
 Feel free to modify the notebook to explore other digits, regularization strengths, or classification techniques."# L1-Logistic-Regression-with-MNIST-dataset" 
+
+## Author
+- **Vuong Khang Huynh** – Ho Chi Minh City University of Technology - Faculty of Computer Science and Engineering.  
+- **Huu Loi Bui** - Ho Chi Minh City University of Technology - Faculty of Computer Science and Engineering.
