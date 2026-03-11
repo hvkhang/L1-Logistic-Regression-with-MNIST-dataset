@@ -4,7 +4,7 @@ This repository contains a Jupyter notebook demonstrating binary classification 
 
 ## Files
 
-- `l1mnist.ipynb` – Main notebook that:
+- `main.ipynb` – Main notebook that:
   - Imports necessary libraries
   - Loads the MNIST dataset from OpenML
   - Filters and samples digits 0 and 8
@@ -24,7 +24,7 @@ The notebook uses the `mnist_784` dataset from [OpenML](https://www.openml.org/d
    ```
 2. **Open the notebook** in Jupyter or VS Code:
    ```bash
-   jupyter notebook l1mnist.ipynb
+   jupyter notebook main.ipynb
    ```
 3. **Run cells sequentially** to reproduce the analysis. The dataset is downloaded automatically by scikit-learn on first run.
 
