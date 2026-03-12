@@ -68,6 +68,8 @@ The scatter plot reveals partial separation between digits **0** and **8**, sugg
 
 Note that 2D PCA is used only for visualization, not for training the final classifier.
 
+![PCA visualization](pca2d.png)
+
 ---
 
 # Model: L1-Regularized Logistic Regression
@@ -129,6 +131,8 @@ Most misclassifications correspond to ambiguous handwritten digits where:
 - elongated **0s** resemble **8s**
 - simplified **8s** resemble **0s**
 
+![Confusion Matrix (Original)](conf_orig.png)
+
 ---
 
 ### PCA Feature Model
@@ -137,10 +141,12 @@ The PCA-based model produces 74 misclassifications out of 6000 samples yielding 
 
 Errors remain balanced between classes:
 
-- 35 zeros misclassified as 8
-- 39 eights misclassified as 0
+- 35 zeros misclassified as **8**
+- 39 eights misclassified as **0**
 
 This slight increase in errors reflects the information loss introduced by dimensionality reduction even though the model remains highly accurate.
+
+![Confusion Matrix (PCA)](conf_pca.png)
 
 ---
 
