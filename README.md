@@ -190,3 +190,9 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+# Authors
+**Vuong Khang Huynh** - Ho Chi Minh City University of Technology - VNU-HCM
+**Huu Loi Bui** - Ho Chi Minh City University of Technology - VNU-HCM
